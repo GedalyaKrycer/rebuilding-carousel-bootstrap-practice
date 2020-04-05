@@ -49,13 +49,13 @@ Carousel
 
 
 /*———————————————————————————— 
-Features
+previews
 ————————————————————————————*/
-.features {
+.previews {
     text-align: center;
 }
 
-.features__bottom-margin {
+.previews__bottom-margin {
     margin-bottom: 50px;
 }
 

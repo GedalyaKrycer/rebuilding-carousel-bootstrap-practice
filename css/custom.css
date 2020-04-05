@@ -1,0 +1,92 @@
+/*———————————————————————————— 
+Base
+————————————————————————————*/
+h2 {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #570DB6;
+    border-color: rgb(71, 14, 146);
+}
+
+hr {
+    margin: 50px 0;
+}
+
+img {
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*———————————————————————————— 
+Carousel
+————————————————————————————*/
+
+.bg {
+    height: 300px;
+}
+
+.bg--red {
+    background-color: orangered;
+}
+
+.bg--blue {
+    background-color: blue;
+}
+
+.bg--green {
+    background-color: green;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+
+/*———————————————————————————— 
+Features
+————————————————————————————*/
+.features {
+    text-align: center;
+}
+
+.features__bottom-margin {
+    margin-bottom: 50px;
+}
+
+
+
+/*———————————————————————————— 
+Highlights
+————————————————————————————*/
+.highlight {
+    padding: 50px 0;
+}
+
+.highlight__h2 {
+    font-size: 50px;
+    margin-top: 5rem;
+}
+
+
+/*———————————————————————————— 
+Media Queries 
+————————————————————————————*/
+@media screen and (max-width:1199px) {
+    .highlight__h2 {
+        margin-top: 3rem;
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .highlight__h2 {
+        margin-top: 0;
+        font-size: 36px;
+    }
+}
